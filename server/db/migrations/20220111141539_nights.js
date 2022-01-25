@@ -7,7 +7,7 @@ exports.up = function (knex) {
     table.string('location')
     table.string('description')
     table.string('links')
-    table.string('archive')
+    table.boolean('archive')
   })
 }
 
