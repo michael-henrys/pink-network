@@ -1,0 +1,19 @@
+.button {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.325em;
+  text-transform: uppercase;
+  color: #000000;
+  background: #6FD81C;
+  position: absolute;
+  width: 96px;
+  height: 46px;
+  right: 11px;
+  bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
