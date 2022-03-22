@@ -1,5 +1,5 @@
 .safety-code {
-  background-color: #6FD81C;
+  background-color: $goblin-green;
   height: 100vh;
 }
 
@@ -39,4 +39,8 @@
   text-transform: uppercase;
   color: #000000;
   filter: blur(1px);
+}
+
+.safety-code-star-logo{
+  margin-top: 3px;
 }

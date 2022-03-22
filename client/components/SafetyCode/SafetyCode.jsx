@@ -1,13 +1,13 @@
 import React from 'react'
 import EscapeButton from '../utils/EscapeButton'
-import StarLogo from '../utils/StarLogo'
+import STAR from '../../images/STAR.svg'
 
 export default function SafetyCode () {
   return (
     <div className='safety-code'>
       <EscapeButton destination='/home' />
       <div className='safety-code__container'>
-        <StarLogo />
+        <img className='safety-code-star-logo' alt='Star Logo' src={STAR}/>
         <h1 className='safety-code__title'>WELCOME TO PINK NETWORK</h1>
         <div className='safety-code__container__text'>
           <p>We aim to make our spaces accessible to everyone AND INCLUSIVE.</p>
