@@ -1,4 +1,6 @@
 .safety-code__container__text{
+  display: block;
+  margin: auto;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
@@ -13,7 +15,8 @@
 }
 
 .safety-code__title{
-  margin: 5px;
+  display: block;
+  margin: auto;
   width: 90%;
   font-family: 'Arial';
   font-style: normal;
