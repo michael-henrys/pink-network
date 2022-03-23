@@ -36,6 +36,7 @@ $duration: 5s;
   background-color: $goblin-green; 
   padding-left: 100%;
   box-sizing: content-box;
+  box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.69);
 
   .ticker {
 
@@ -67,7 +68,6 @@ $duration: 5s;
             animation-duration: $duration;
 
     &-item {
-
       display: inline-block;
       color: black;
       margin-right: 40px;

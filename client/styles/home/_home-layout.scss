@@ -4,6 +4,7 @@
   margin: 0px;
   width: 100%;
   background-color: black;
+  z-index: 1;
 }
 
 .home-title{
@@ -13,7 +14,7 @@
 }
 
 .home-main{
-  margin-top: 120px;
+  margin-top: calc(0.1942 * 100vw + 50px);
 }
 
 .home-star-logo{
@@ -22,6 +23,21 @@
 
 .home-content{
   margin-left: 80px;
-  font-family: Arial;
-  color: white;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.325em;
+  color: #FFFFFF;
+  filter: blur(0.8px);
+}
+
+.home-text{
+  margin: 4px;
+}
+
+.home-content-block{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

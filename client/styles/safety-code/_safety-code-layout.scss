@@ -1,20 +1,3 @@
-.safety-code {
-  background-color: $goblin-green;
-  height: 100vh;
-}
-
-.safety-code__container {
-  position: absolute;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100%;
-  width: 90%;
-  left: 5%;
-}
-
 .safety-code__container__text{
   font-family: 'Arial';
   font-style: normal;
@@ -25,10 +8,13 @@
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: #000000;
+  text-align: center;
+  width: 85%;
 }
 
 .safety-code__title{
   margin: 5px;
+  width: 90%;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 900;
@@ -39,8 +25,4 @@
   text-transform: uppercase;
   color: #000000;
   filter: blur(1px);
-}
-
-.safety-code-star-logo{
-  margin-top: 3px;
 }
