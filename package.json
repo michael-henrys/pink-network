@@ -72,11 +72,15 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.1",
     "install": "^0.13.0",
     "knex": "^0.21.17",
     "npm": "^8.3.2",
     "pg": "^8.5.1",
-    "superagent": "^6.1.0"
+    "stripe": "^8.213.0",
+    "superagent": "^6.1.0",
+    "uuid": "^8.3.2"
   }
 }
