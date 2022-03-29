@@ -4,7 +4,7 @@ import Ticker from '../utils/Ticker'
 import Line from '../utils/Line'
 import PriceSelector from './PriceSelector'
 import { useSelector } from 'react-redux'
-import loadStripe from '@stripe/stripe-js'
+import { loadStripe } from '@stripe/stripe-js'
 import { Elements } from '@stripe/react-stripe-js'
 import PaymentForm from './PaymentForm'
 
@@ -13,7 +13,7 @@ export default function Payment () {
 
   const price = useSelector(state => state.price)
 
-  const stripePromise = loadStripe('pk_test_51KiV8jH6CDpmUuG8WQGpjokLPejgX5ovFiVTeQbnimydSpjEPIsBBxuWXBJnsPwppUiUpcfWqH47iBtIQmAAVENS00IvIaCkdx')
+  const stripePromise = loadStripe('pk_test_51KiV8jH6CDpmUuG8cBFFd3y2D1Tr5cNRDEvNJa3y2I8GhnZIZAKsfjgzjIR9N7euiYqEqxZSmc79R6BJK2sZ7q7u001LVqssPE')
 
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
