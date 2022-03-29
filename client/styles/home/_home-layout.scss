@@ -1,0 +1,43 @@
+.home-header{
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+.home-title{
+  width: 50%;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+.home-main{
+  margin-top: calc(0.1942 * 100vw + 50px);
+}
+
+.home-star-logo{
+  position: fixed;
+}
+
+.home-content{
+  margin-left: 80px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.325em;
+  color: #FFFFFF;
+  filter: blur(0.8px);
+}
+
+.home-text{
+  margin: 4px;
+}
+
+.home-content-block{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,4 +1,5 @@
 .button {
+  position: fixed;
   font-family: Arial;
   font-style: normal;
   font-weight: bold;
@@ -6,10 +7,8 @@
   letter-spacing: 0.325em;
   text-transform: uppercase;
   color: #000000;
-  background: #6FD81C;
-  position: absolute;
-  width: 96px;
-  height: 46px;
+  background: $goblin-green;
+  padding: 15px;
   right: 11px;
   bottom: 13px;
   display: flex;

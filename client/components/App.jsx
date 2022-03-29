@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Archive from './Archive/Archive'
 import ArchiveItem from './ArchiveItem/ArchiveItem'
 
 import LandingPage from './LandingPage/LandingPage'
@@ -18,7 +17,6 @@ function App () {
         <Route path="home" element={<Home />} />
         <Route path="payment" element={<Payment />} />
         <Route path="confirmed" element={<Confirmed />} />
-        <Route path="archive" element={<Archive/>} />
         <Route path="archive/:nightId" element={<ArchiveItem />} />
       </Routes>
     </>
