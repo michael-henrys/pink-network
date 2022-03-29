@@ -1,0 +1,71 @@
+.priceSelector-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.priceSelector-container{
+  display: block;
+  position: relative;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  width: 33.33%;
+  height: 46px;
+}
+
+.priceSelector-container-left{
+  border-left: 1px solid #000000;
+}
+
+.priceSelector-container-right{
+  border-right: 1px solid #000000;
+}
+
+.priceSelector-container-center{
+  border-left: 1px solid #676767;
+  border-right: 1px solid #676767;
+}
+
+.input-radio{
+  position:absolute;
+  top:0;
+  left:0;
+  opacity: 0;  
+}
+
+.radio-inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.checkmark{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;  
+  filter: blur(4px);
+  margin: 15px;
+}
+
+.price {
+  margin: 15px;
+}
+
+.input-radio:checked ~ .radio-inner .checkmark{
+  background-color: #ffffff;
+}
+
+.input-radio:checked ~ .radio-inner .price{
+  color: #ffffff;
+}
+
+.input-radio:checked ~ .radio-inner{
+  background-color: #000000;
+}
+
+
+
+
+
