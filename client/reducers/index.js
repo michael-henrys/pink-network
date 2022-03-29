@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux'
 
-// import stuff from './stuff'
+import { price } from './price'
+import { userDetails } from './userDetails'
 
 export default combineReducers({
-  // stuff
+  price,
+  userDetails
 })
