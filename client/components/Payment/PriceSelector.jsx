@@ -34,7 +34,7 @@ export default function PriceSelector () {
             <div className='checkmark'></div>
           </div>
         </label>
-        <label className='priceSelector-container priceSelector-container-center'>
+        <label className='priceSelector-container priceSelector-container-right'>
           <input type="radio" name="price" className='input-radio' value={30}
             checked={price === 30}
             onChange={changeHandler}

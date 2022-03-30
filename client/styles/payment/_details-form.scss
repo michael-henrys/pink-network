@@ -1,0 +1,33 @@
+.form-wrapper{
+  margin-top: 30px;
+  border: 1px solid #000000;
+  height: 80px;
+}
+
+.input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: $goblin-green;
+  outline: none;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  letter-spacing: 0.325em;
+  text-transform: uppercase;  
+}
+
+.top{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #676767
+}
+
+.bottom{
+  border: 0;
+}

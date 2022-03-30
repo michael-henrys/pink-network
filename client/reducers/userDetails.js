@@ -1,4 +1,4 @@
-export const SET_USER_DETAILS = 'SET_USER_DETAILS'
+import { SET_USER_DETAILS } from '../actions/userDetails'
 
 const initialState = {
   name: '',
