@@ -13,7 +13,6 @@ export default function PriceSelector () {
 
   return (
     <>
-      <p>Pay what you can</p>
       <div className='priceSelector-wrap'>
         <label className='priceSelector-container priceSelector-container-left'>
           <input type="radio" name="price" className='input-radio' value={10}

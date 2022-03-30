@@ -10,7 +10,6 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 const server = express()
 
 server.use(express.json())
-// server.use(cors())
 server.use(express.static(path.join(__dirname, 'public')))
 
 // server.use('/v1/nights', nights)
@@ -20,11 +19,9 @@ server.post('/create-payment-intent', async (req, res) => {
 
   // Create a PaymentIntent with the order amount and currency
   const paymentIntent = await stripe.paymentIntents.create({
-    amount: price,
+    amount: price * 100,
     currency: 'nzd',
-    automatic_payment_methods: {
-      enabled: true
-    }
+    payment_method_types: ['card']
   })
 
   res.send({
