@@ -2,17 +2,11 @@ const express = require('express')
 const path = require('path')
 require('dotenv').config()
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
-// const cors = require('cors')
-// const uuid = require('uuid')
-
-// const nights = require('./routes/nights')
 
 const server = express()
 
 server.use(express.json())
 server.use(express.static(path.join(__dirname, 'public')))
-
-// server.use('/v1/nights', nights)
 
 server.post('/create-payment-intent', async (req, res) => {
   const { price } = req.body
