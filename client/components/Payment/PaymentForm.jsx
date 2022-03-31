@@ -24,7 +24,11 @@ export default function PaymentForm () {
   }, [])
 
   const appearance = {
-    theme: 'stripe'
+    variables: {
+      fontFamily: 'Arial',
+      borderRadius: '0',
+      colorBackground: '#6FD81C'
+    }
   }
   const options = {
     clientSecret,
@@ -32,7 +36,7 @@ export default function PaymentForm () {
   }
 
   return (
-    <div>
+    <div className='payment-wrapper'>
       {clientSecret && (
         <Elements options={options} stripe={stripePromise}>
           <CheckoutForm />

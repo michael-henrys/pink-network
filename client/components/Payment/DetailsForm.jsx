@@ -1,7 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { setUserDetails } from '../../actions/userDetails'
-import ConfirmButton from './ConfirmButton'
 import PriceSelector from './PriceSelector'
 
 export default function DetailsForm ({ setPaying }) {
@@ -36,7 +35,7 @@ export default function DetailsForm ({ setPaying }) {
           onChange={changeHandler}
         />
       </div>
-      <ConfirmButton onClick={() => { setPaying(true) }} text='GET A TICKET'/>
+      <button onClick={() => { setPaying(true) }} className='confirmation-button'>{'GET A TICKET'}</button>
     </>
   )
 }
